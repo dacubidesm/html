@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(155, 155, 225);
+}
+header{
+    background-color:rgb(70, 200, 200) !important; border:2px solid blue;
+    border-radius:20px;
+    /*configuración de dislpay flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+header img{
+    padding: 20px;
+}
+nav{
+    background-color: rgb(21, 91, 112);
+    border: 2px solid gray;
+    border-radius: 10px;
+    /*configuración de dislpay flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(127, 189, 243);
+    font-size: 25px;
+}
+section{
+    background-color: antiquewhite;
+    width: 40%;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px auto;
+    background: linear-gradient(aliceblue,blue);
+}
+form{
+    background-color: rgb(22, 215, 237);
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px auto;
+
+}
+fieldset{
+    border-style: none;
+}
+label{
+    font-size: 18px;
+}
+textarea{
+    resize: both;
+    max-height: 100px;
+}
+/*Pseudoclase focus: al dar click en botón */
+input:focus, textarea:focus{
+    border-color: blue;
+    cursor: pointer;
+    box-shadow: outset 0 0  20px blue;
+    outline:0 none;
+}
+form button{
+    width: 40%;
+    margin: 12px 20px;
+    height: 40px;
+    background: radial-gradient(green, yellow);
+    border-radius: 15px;
+}
+form input{
+    height: 20px;
+    box-sizing: border-box;
+    color: black; 
+    outline: none;
+}
+/*Pseudoclase hover: al pasar mouse por encima control*/    
+form button:hover{
+    background-color: darkgray;
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+footer{font-size: 16px;
+text-align: center;
+color: white;}
