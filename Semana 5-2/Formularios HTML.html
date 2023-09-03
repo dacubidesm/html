@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/FRMcontacto.css">
+</head>
+<body>
+    <header>
+        <img src="./img/incap.png" alt="incap" width="100" height="100">
+        <h1>FORMULARIO INCAP</h1>
+    </header>
+    <nav>
+        <p>Este formulario es para registrar el ingreso de un estudiante</p>
+    </nav>
+    <section>
+        <!-- sección de formulario de ingreso estudiante -->
+        <form action="">
+            <fieldset>
+                <label for="">Nombre completo</label>
+                <input type="text" placeholder="Ingrese su nombre completo" autofocus required>
+                <br><br>
+                <label for="">E-mail:</label>
+                <input type="email" placeholder="Ingrese su correo personal" required>
+                <br><br>
+                <label for="">Contraseña:</label>
+                <input type="password" placeholder="Ingrese su contraseña personal" required>
+                <br><br>
+                <!-- Sección de botón checkbox -->
+                <label for="">Seleccione sus hobbies:</label>
+                <br>
+                <input type="checkbox">Cine
+                <input type="checkbox">Lectura
+                <input type="checkbox">Deporte
+                <br><br>
+                <!-- Sección de botón radio-->
+                <label for="">Estado civil: </label>
+                <br>
+                <input type="radio" name="Estado civil" value="Soltero"> Solter@
+                <input type="radio" name="Estado civil" value="Casado">Casad@
+                <input type="radio" name="Estado civil" value="Viudo">Viud@
+                <input type="radio" name="Estado civil" value="Divorciado">Divorciad@
+                <br><br>
+                <label for="">Programas Técnicos INCAP</label>
+                <br>
+                <select name="" id="">
+                    <option value="">Seleccione programa...</option>
+                    <br>
+                    <option value="">Programación BBDD</option>
+                    <br>
+                    <option value="">Diseño Gráfico</option>
+                    <br>
+                    <option value="">Contabilidad</option>
+                    <br>
+                </select>
+                <br>
+                <label for="">Fecha de nacimiento  </label>
+                <input type="date" title="Ingrese su fecha de nacimiento">
+                <br>
+                <label for="">Ingrese su edad</label>
+                <input type="number" min="1" max="120">
+                <br><br>
+                <label for="">Subir foto-archivo</label>
+                <input type="file" name="" id="">
+                <br>
+                <textarea name="" id="" cols="40" rows="5"></textarea>
+            </fieldset>
+            <br><br>
+            <!-- Sección de botones de enviar y cancelar envio de datos -->
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button> 
+            <br><br>
+        </form>
+    </section>
+    <footer>
+        <cite>Derechos reservados &copy; 2023 @DavidCubides</cite>
+    </footer>
+</body>
+</html>
